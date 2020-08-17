@@ -2,10 +2,17 @@
   "name": "@react-native-community/cli-hermes",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "main": "build/index.js",
+  "bin": {
+    "cli-hermes": "build/bin.js"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
   "dependencies": {
     "@react-native-community/cli-tools": "^4.11.0",
     "@react-native-community/cli-types": "^4.10.1",
-    "hermes-profile-transformer": "^0.0.6"
+    "hermes-profile-transformer": "^0.0.6",
+    "typescript": "^3.9.7"
   }
 }
