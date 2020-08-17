@@ -1,11 +1,9 @@
 {
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "files.exclude": {
     "**/.git": true,
     "**/node_modules": true,
-    "**/build": true
+    "**/build": false
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
